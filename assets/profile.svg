@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">Stylized illustration of a researcher used as a profile photo placeholder.</desc>
+  <defs>
+    <linearGradient id="grad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a73e8" />
+      <stop offset="100%" stop-color="#1558b0" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#grad)" rx="100" ry="100" />
+  <circle cx="100" cy="80" r="42" fill="#fefefe" opacity="0.95" />
+  <path d="M50 168c12-34 36-52 50-52s38 18 50 52" fill="#fefefe" opacity="0.9" />
+  <circle cx="100" cy="80" r="32" fill="#c8d6f2" />
+  <path d="M72 152c10-18 24-28 28-28s18 10 28 28" fill="#c8d6f2" />
+</svg>

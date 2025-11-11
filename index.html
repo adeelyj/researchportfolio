@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Portfolio | Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script defer src="scripts/home-chart.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="profile-photo">
+        <img src="assets/profile.svg" alt="Portrait of Dr. Elena Vasquez">
+      </div>
+      <div class="site-title">
+        <h1>Dr. Elena Vasquez</h1>
+        <p>Neurobiology &amp; Optical Imaging Laboratory, Stanford University</p>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div class="nav-inner">
+      <a class="active" href="index.html">Home</a>
+      <a href="metrics.html">Metrics</a>
+      <a href="about.html">About</a>
+      <a href="cv.html">CV</a>
+    </div>
+  </nav>
+  <main>
+    <section class="section-card">
+      <div class="section-grid">
+        <div>
+          <div class="badge">Verified profile</div>
+          <h2>Dr. Elena Vasquez</h2>
+          <p class="profile-meta">
+            <span>Stanford University</span>
+            <span><strong>Verified email:</strong> vasquezlab@stanford.edu</span>
+          </p>
+          <p>
+            Research interests: <span class="badge">Neurobiology</span>
+            <span class="badge">Two-photon imaging</span>
+            <span class="badge">Neurovascular coupling</span>
+          </p>
+        </div>
+        <div>
+          <h3>Cited by</h3>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <h3>All</h3>
+              <p><strong>Citations:</strong> 8,732</p>
+              <p><strong>h-index:</strong> 42</p>
+              <p><strong>i10-index:</strong> 85</p>
+            </div>
+            <div class="metric-card">
+              <h3>Since 2020</h3>
+              <p><strong>Citations:</strong> 3,214</p>
+              <p><strong>h-index:</strong> 29</p>
+              <p><strong>i10-index:</strong> 44</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card">
+      <div class="chart-container">
+        <h2>Citations per year</h2>
+        <canvas id="citationChart" width="600" height="320"></canvas>
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>Publications</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Title</th>
+              <th scope="col">Cited by</th>
+              <th scope="col">Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a class="publication-title" href="https://doi.org/10.1038/s41592-024-00234" target="_blank" rel="noopener">
+                  Adaptive volumetric imaging of cortical microcirculation in behaving mice
+                </a>
+                <div class="profile-meta">E. Vasquez, L. Kim, J. Herrera &mdash; Nature Methods</div>
+              </td>
+              <td><a href="https://scholar.google.com" target="_blank" rel="noopener">652</a></td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>
+                <a class="publication-title" href="https://doi.org/10.1126/science.abc1234" target="_blank" rel="noopener">
+                  Two-photon holographic stimulation reveals dynamic astrocyte signaling
+                </a>
+                <div class="profile-meta">E. Vasquez, R. Al-Mutairi, M. Zhou &mdash; Science</div>
+              </td>
+              <td><a href="https://scholar.google.com" target="_blank" rel="noopener">714</a></td>
+              <td>2022</td>
+            </tr>
+            <tr>
+              <td>
+                <a class="publication-title" href="https://doi.org/10.1038/nn.12345" target="_blank" rel="noopener">
+                  Neurovascular coupling signatures during learning and memory consolidation
+                </a>
+                <div class="profile-meta">E. Vasquez, S. Patel, J. Martinez &mdash; Nature Neuroscience</div>
+              </td>
+              <td><a href="https://scholar.google.com" target="_blank" rel="noopener">1,104</a></td>
+              <td>2020</td>
+            </tr>
+            <tr>
+              <td>
+                <a class="publication-title" href="https://doi.org/10.1016/j.neuron.2018.05.012" target="_blank" rel="noopener">
+                  Mapping inhibitory microcircuits governing sensory gating
+                </a>
+                <div class="profile-meta">E. Vasquez, H. Nguyen, L. Cheng &mdash; Neuron</div>
+              </td>
+              <td><a href="https://scholar.google.com" target="_blank" rel="noopener">1,532</a></td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>
+                <a class="publication-title" href="https://doi.org/10.1038/nmeth.4567" target="_blank" rel="noopener">
+                  Ultrafast calcium indicators for deep brain imaging
+                </a>
+                <div class="profile-meta">E. Vasquez, F. Oliveira, K. Chen &mdash; Nature Methods</div>
+              </td>
+              <td><a href="https://scholar.google.com" target="_blank" rel="noopener">1,803</a></td>
+              <td>2016</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p><a href="#" class="button" role="button">Show more publications</a></p>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="mailto:vasquezlab@stanford.edu">
+          <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.236l8 6.999 8-6.999V18H4z"></path>
+          </svg>
+          Email
+        </a>
+      </div>
+      <div class="qr-wrapper">
+        <img src="assets/linktree-qr.svg" alt="QR code linking to Linktree" width="96" height="96">
+        <div>
+          <p>Scan to open Linktree with social and academic profiles.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

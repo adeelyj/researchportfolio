@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Linktree QR code placeholder</title>
+  <desc id="desc">Simplified QR code styled placeholder linking to Linktree page.</desc>
+  <rect width="120" height="120" fill="#ffffff" stroke="#1a73e8" stroke-width="4" rx="12" ry="12" />
+  <g fill="#1a73e8">
+    <rect x="12" y="12" width="24" height="24" rx="4" />
+    <rect x="84" y="12" width="24" height="24" rx="4" />
+    <rect x="12" y="84" width="24" height="24" rx="4" />
+    <rect x="48" y="48" width="12" height="12" />
+    <rect x="64" y="32" width="12" height="12" />
+    <rect x="80" y="52" width="12" height="12" />
+    <rect x="60" y="68" width="12" height="12" />
+    <rect x="40" y="84" width="12" height="12" />
+    <rect x="76" y="88" width="16" height="16" />
+    <rect x="28" y="36" width="12" height="12" />
+    <rect x="92" y="36" width="12" height="12" />
+    <rect x="32" y="60" width="12" height="12" />
+  </g>
+</svg>
